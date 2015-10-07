@@ -1,0 +1,8 @@
+﻿_ReSharper.*/
+*.suo
+*.v12.suo
+SOLID.sln.DotSettings.user
+SOLID.6.5.TeamCity.user
+SOLID.1.2.dotCover
+bin/
+obj/
