@@ -67,8 +67,6 @@ namespace Quadtree
             this.childNodes = new Dictionary<Cardinal, Node>();
         }
 
-        public IEnumerable<Item> Items { get; private set; }
-
         public int ItemsCount
         {
             get 
@@ -182,6 +180,15 @@ namespace Quadtree
 
     public class Item
     {
+        public Item() { }
+
+        public Item(string key, int x, int y)
+        {
+            Key = key;
+            X = x;
+            Y = y;
+        }
+
         public string Key { get; set; }
         public int X { get; set; }
         public int Y { get; set; }
