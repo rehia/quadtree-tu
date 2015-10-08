@@ -69,6 +69,14 @@ namespace Quadtree
 
         public IEnumerable<Item> Items { get; private set; }
 
+        public int ItemsCount
+        {
+            get 
+            {
+                return this.items.Count;
+            }
+        }
+
         public bool Push(Item item) 
         {
             if (this.IsNotInBounds(item))
