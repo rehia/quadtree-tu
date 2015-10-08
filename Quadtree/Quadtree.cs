@@ -122,7 +122,7 @@ namespace Quadtree
             this.childNodes[Cardinal.SW].Push(item);
         }
 
-        private bool IsLeaf()
+        public bool IsLeaf()
         {
             return this.childNodes.Count == 0;
         }
