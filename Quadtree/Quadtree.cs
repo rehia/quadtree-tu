@@ -140,10 +140,12 @@ namespace Quadtree
 
         private void CreateLeaves()
         {
-            var middleX = (this.x + this.width) / 2;
-            var middleY = (this.y + this.height) / 2;
+//            var middleX = (this.x + this.width) / 2;
+//            var middleY = (this.y + this.height) / 2;
             var halfWidth = this.width / 2;
             var halfHeight = this.height / 2;
+            var middleX = this.x + halfWidth;
+            var middleY = this.y + halfHeight;
             this.childNodes.Add(
                 Cardinal.NW,
                 new Node(this.x, middleY, halfWidth, halfHeight));

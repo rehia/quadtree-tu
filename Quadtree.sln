@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadtree", "Quadtree\Quadtr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadtree.App", "Quadtree.App\Quadtree.App.csproj", "{1F9F8D93-2007-47D1-ADA1-AFBF0DBFE63F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadtree.Tests", "Quadtree.Tests\Quadtree.Tests.csproj", "{E33733F7-3A98-45A8-9069-7BAC94DCE5F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{19BFE67D-E528-4EFC-80D9-1107D092B0D1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{1F9F8D93-2007-47D1-ADA1-AFBF0DBFE63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F9F8D93-2007-47D1-ADA1-AFBF0DBFE63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F9F8D93-2007-47D1-ADA1-AFBF0DBFE63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33733F7-3A98-45A8-9069-7BAC94DCE5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33733F7-3A98-45A8-9069-7BAC94DCE5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33733F7-3A98-45A8-9069-7BAC94DCE5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33733F7-3A98-45A8-9069-7BAC94DCE5F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
